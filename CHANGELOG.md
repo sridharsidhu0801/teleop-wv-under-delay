@@ -14,6 +14,7 @@ All notable repository-level changes are recorded here. Git has not yet been ini
 - Passed a one-second offline simulation of the non-ROS reproduction model in a disposable directory.
 - Recorded the inherited algebraic loop diagnostic without suppressing or changing it.
 - Deferred ROS hardware-model execution until a prepared and safety-checked session is available.
+- Linked the companion F1-10-human-racing repository as the authoritative source for ROS launch files, nodes, and baseline no-delay hardware operation.
 
 ## 2026-09-18
 

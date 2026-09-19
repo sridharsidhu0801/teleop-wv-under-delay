@@ -43,11 +43,22 @@ The delay conditions are parameter settings, not four independent Simulink model
 
 The current initialization file contains contradictory comments around the `delay` assignment. Consult the experiment README and provenance record before changing or executing that parameter.
 
-## Hardware dependency
+## Relationship to the F1/10 hardware repository
 
-The laboratory repository [F1-10-human-racing](https://github.com/resilient-autonomous-systems-lab/F1-10-human-racing) contains supporting launch information for the F1/10 hardware. It remains an external dependency and is not duplicated here.
+This repository contains the research layer: the delayed-teleoperation controllers, passive wave-variable transformations, Smith and minimum-jerk prediction models, validation figures, and ACC 2024 paper artifacts.
 
-The active Simulink models publish and subscribe to ROS topics including `/racing_cockpit/ctrl_cmd` and `/adaptive_response`. Do not start a hardware run until ROS, the cockpit, vehicle safety limits, and emergency-stop procedures have been checked.
+The companion laboratory repository [F1-10-human-racing](https://github.com/resilient-autonomous-systems-lab/F1-10-human-racing/tree/main) contains the operational hardware layer, including the ROS launch files, ROS nodes, and supporting files for baseline F1/10 human teleoperation without an imposed communication delay.
+
+For a real-hardware session:
+
+1. Use the companion repository to configure and launch the cockpit, ROS network, and F1/10 vehicle.
+2. Confirm that the baseline no-imposed-delay teleoperation workflow operates correctly.
+3. Review the safety limits and topic interfaces before opening a model from this repository.
+4. Use this repository only for the delayed, passive, and predictor-assisted research configurations.
+
+The two repositories are intentionally separate: operational launch infrastructure remains in `F1-10-human-racing`, while the research models and publication evidence remain here. The active Simulink models use ROS topics including `/racing_cockpit/ctrl_cmd` and `/adaptive_response`.
+
+Do not start a hardware run until ROS connectivity, cockpit input, vehicle command limits, the physical test area, and emergency-stop procedures have been checked.
 
 ## Repository organization
 
