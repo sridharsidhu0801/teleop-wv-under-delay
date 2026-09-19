@@ -72,12 +72,3 @@ references/                   Supporting literature
 archive/                      Model lineage, caches, meetings, and legacy records
 theory/                       Active theoretical material
 ```
-
-Generated figures stay with the experiment that produced them. Superseded models and Simulink build products are preserved under `archive/` and are not canonical run targets.
-
-## Validation status
-
-- The three R2024b controller configurations have been identified and load successfully.
-- The non-ROS reproduction model passes a one-second MATLAB R2024b smoke simulation.
-- The inherited reproduction model contains one documented algebraic loop.
-- ROS hardware execution and comparison with the published figures remain pending.
