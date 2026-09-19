@@ -11,6 +11,7 @@ Research repository for passive stability and predictor-assisted control of dela
 - Status: Published
 - [IEEE Xplore publication](https://ieeexplore.ieee.org/document/10644849)
 - Final submitted manuscript: [`papers/ACC2024/manuscripts/ACC2024_finalsubmission.pdf`](papers/ACC2024/manuscripts/ACC2024_finalsubmission.pdf)
+- ACC 2024 presentation: [papers/ACC2024/presentations/CISCOR_ACC2024_presentation.pptx](papers/ACC2024/presentations/CISCOR_ACC2024_presentation.pptx)
 
 ## Experimental design
 
@@ -45,7 +46,7 @@ The current initialization file contains contradictory comments around the `dela
 
 ## Relationship to the F1/10 hardware repository
 
-This repository contains the research layer: the delayed-teleoperation controllers, passive wave-variable transformations, Smith and minimum-jerk prediction models, validation figures, and ACC 2024 paper artifacts.
+This repository contains the research layer: the delayed-teleoperation controllers, passive wave-variable transformations, Smith and minimum-jerk prediction models, validation figures, the final ACC 2024 submission, and the ACC 2024 presentation.
 
 The companion laboratory repository [F1-10-human-racing](https://github.com/resilient-autonomous-systems-lab/F1-10-human-racing/tree/main) contains the operational hardware layer, including the ROS launch files, ROS nodes, and supporting files for baseline F1/10 human teleoperation without an imposed communication delay.
 
@@ -65,7 +66,7 @@ Do not start a hardware run until ROS connectivity, cockpit input, vehicle comma
 ```text
 experiments/ACC2024-EXP-001/  Self-contained active experiment
 hardware/                     Hardware overview and documentation
-papers/ACC2024/               Manuscripts, LaTeX project, and presentations
+papers/ACC2024/               Final submitted manuscript and ACC presentation
 development/                  Draft research material
 references/                   Supporting literature
 archive/                      Model lineage, caches, meetings, and legacy records

@@ -1,6 +1,6 @@
 # Changelog
 
-All notable repository-level changes are recorded here. Git has not yet been initialized.
+All notable repository-level changes are recorded here.
 
 ## 2026-09-19
 

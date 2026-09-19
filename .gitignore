@@ -23,3 +23,14 @@
 Thumbs.db
 desktop.ini
 ~$*
+# Private/local research records excluded from the public personal repository
+/archive/*
+!/archive/model_lineage/
+!/archive/model_lineage/**
+/development/drafts/
+/references/
+/papers/ACC2024/latex_project/
+/papers/ACC2024/manuscripts/*
+!/papers/ACC2024/manuscripts/ACC2024_finalsubmission.pdf
+/papers/ACC2024/presentations/*
+!/papers/ACC2024/presentations/CISCOR_ACC2024_presentation.pptx
