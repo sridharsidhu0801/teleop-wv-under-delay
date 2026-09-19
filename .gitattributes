@@ -1,0 +1,22 @@
+* text=auto eol=lf
+*.m text eol=lf
+*.md text eol=lf
+*.tex text eol=lf
+*.bib text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.xml text eol=lf
+*.conf text eol=lf
+
+# Scientific and publication binaries managed by Git LFS
+*.slx filter=lfs diff=lfs merge=lfs -text
+*.mat filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.docx filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.r2023a filter=lfs diff=lfs merge=lfs -text
+*.r2024b filter=lfs diff=lfs merge=lfs -text
+*.original filter=lfs diff=lfs merge=lfs -text

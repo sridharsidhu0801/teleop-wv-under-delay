@@ -1,0 +1,25 @@
+# Local ResearchOS records (preserved on disk, not published)
+/docs/
+
+# Local research meeting recordings and metadata
+/archive/research_meetings/
+
+# Unrelated large thesis presentation retained locally
+/papers/ACC2024/presentations/Thesis-defence.pptx
+
+# Preserved generated inventories and Simulink caches
+/archive/generated_inventories/
+/archive/generated_simulink_cache/
+
+# MATLAB and Simulink generated products
+**/slprj/
+*.slxc
+*.asv
+*.autosave
+*.m~
+
+# Operating-system and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
