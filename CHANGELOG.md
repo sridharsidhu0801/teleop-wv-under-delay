@@ -2,6 +2,12 @@
 
 All notable repository-level changes are recorded here.
 
+## 2026-11-06
+
+- Reviewed the ResearchOS documentation and supporting ACC 2024 record classification.
+- Additional administrative records and presentation variants remain in the local ResearchOS workspace pending publication review; they are not included in this public update.
+- Preserved the public repository exclusions and the existing README scope. No new scientific validation is claimed.
+
 ## 2026-09-19
 
 - Reconstructed the published design as three controller configurations evaluated under zero, 500 ms, and 1 s imposed-delay conditions.
